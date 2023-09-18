@@ -12,19 +12,19 @@
 
 # PL_TARGET_DENSITY - You can increase this if Global Placement fails with error GPL-0302.
 # Users have reported that values up to 0.8 worked well for them.
-set ::env(PL_TARGET_DENSITY) 0.6
+#set ::env(PL_TARGET_DENSITY) 0.6 #@@@NOTE: Commented out for petersn/tt04 test.
 
 # CLOCK_PERIOD - Increase this in case you are getting setup time violations.
 # The value is in nanoseconds, so 20ns == 50MHz.
 set ::env(CLOCK_PERIOD) "20"
 
 # Hold slack margin - Increase them in case you are getting hold violations.
-set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.1
-set ::env(GLB_RESIZER_HOLD_SLACK_MARGIN) 0.05
+# set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.1 #@@@NOTE: Commented out for petersn/tt04 test.
+# set ::env(GLB_RESIZER_HOLD_SLACK_MARGIN) 0.05 #@@@NOTE: Commented out for petersn/tt04 test.
 
 # RUN_LINTER, LINTER_INCLUDE_PDK_MODELS - Disabling the linter is not recommended!
-set ::env(RUN_LINTER) 1
-set ::env(LINTER_INCLUDE_PDK_MODELS) 1
+# set ::env(RUN_LINTER) 1 #@@@NOTE: Commented out for petersn/tt04 test.
+# set ::env(LINTER_INCLUDE_PDK_MODELS) 1 #@@@NOTE: Commented out for petersn/tt04 test.
 
 # Configuration docs: https://openlane.readthedocs.io/en/latest/reference/configuration.html
 
