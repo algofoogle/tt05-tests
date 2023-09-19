@@ -27,6 +27,7 @@ documentation:
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
+      Dummy text.
       This is just a copy of the code from https://github.com/petersn/tt04 which I've put into this repo
       for testing GitHub Actions with a complex 8x2 design.
 
